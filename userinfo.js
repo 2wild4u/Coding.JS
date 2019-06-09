@@ -5,7 +5,7 @@ const colours = require("../../colours.json");
 
 module.exports.run = async (bot, message, args) => {
     let uEmbed = new Discord.RichEmbed()
-        .setColor(colours.red_light)
+        .setColor(colours.blue_light)
         .setTitle("User Info")
         .setThumbnail(bot.user.displayAvatarURL)
         .setAuthor(`${message.author.username} Info`, message.author.displayAvatarURL)
